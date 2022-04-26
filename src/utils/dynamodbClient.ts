@@ -3,6 +3,8 @@ import {DynamoDB} from 'aws-sdk'
 const options = {
   region: "localhost",
   endpoint: "http://localhost:8000",
+  
+  //Sem credenciais
   accessKeyId: "x",
   secretAccessKey: "x"
 }
